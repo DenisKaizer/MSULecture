@@ -1,2 +1,2 @@
 # MSULecture
-Info for practice part
+Info for practical part
