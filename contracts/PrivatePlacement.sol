@@ -254,7 +254,7 @@ contract PrivatePlacement is Ownable {
   
   address public multisig;
   
-  ABHCoin public token;
+  LSN public token;
   
   uint256 public hardcap;
   uint public rate;

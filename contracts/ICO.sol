@@ -262,7 +262,7 @@ contract ICO is Ownable {
   address adviserAndBounties;
   address public multisig;
   
-  ABHCoin public token;
+  LSN public token;
   
   uint public start;
   uint public period;
