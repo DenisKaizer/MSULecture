@@ -283,7 +283,7 @@ contract ICO is Ownable {
     team = _team;
     adviserAndBounties = _adviserAndBounties;
     rate = _rate * 1 ether;
-    token = ABHCoin(_tokenAddress);
+    token = LSN(_tokenAddress);
     start = _start;
     period = _period;
     hardcap = 6090000000 * 1 ether;

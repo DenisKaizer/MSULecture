@@ -267,11 +267,11 @@ contract PrivatePlacement is Ownable {
   //address public lastInvest;
   mapping(address => uint) public balances;
   
-  function PrivatePlacement(address _ABHCoinAddress, address _multisig, uint _rate) {
+  function PrivatePlacement(address _LSNCoinAddress, address _multisig, uint _rate) {
     multisig = _multisig;
     rate = _rate * 1 ether;
     hardcap = 121800000 * 1 ether; // token amount
-    token = ABHCoin(_ABHCoinAddress);
+    token = LSN(_LSNCoinAddress);
   }
   
   modifier isUnderHardCap() {
