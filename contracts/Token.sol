@@ -237,11 +237,11 @@ contract MintableToken is StandardToken, Ownable {
   
 }
 
-contract ABHCoin is MintableToken {
+contract LSN is MintableToken {
   
   string public constant name = "Lesson Coin";
   
-  string public constant symbol = "LNC";
+  string public constant symbol = "LSN";
   
   uint32 public constant decimals = 18;
   
